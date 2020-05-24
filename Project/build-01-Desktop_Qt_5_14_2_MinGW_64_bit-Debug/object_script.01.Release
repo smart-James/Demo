@@ -1,0 +1,11 @@
+release/calaterbutton.o
+release/helpframe.o
+release/main.o
+release/pushbutton.o
+release/titlebar.o
+release/widget.o
+release/moc_calaterbutton.o
+release/moc_helpframe.o
+release/moc_pushbutton.o
+release/moc_titlebar.o
+release/moc_widget.o

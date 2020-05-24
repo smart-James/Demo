@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HelpFrame</class>
+ <widget class="QFrame" name="HelpFrame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>721</width>
+    <height>506</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <property name="tabBarAutoHide">
+      <bool>false</bool>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>贷款类型</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QTextBrowser" name="textBrowser">
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:22pt; font-weight:600;&quot;&gt;商业贷款与公积金贷款的区别&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:14pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'仿宋'; font-size:14pt; font-weight:600; color:#333333;&quot;&gt;1．贷款利率不同： &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'仿宋'; font-size:14pt; color:#333333;&quot;&gt;公积金贷款：3.25%。 商业贷款：4.65%.（2020年4月20日最新LPR） &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman'; font-size:14pt; font-weight:600; color:#333333;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'仿宋'; font-size:14pt; font-weight:600; color:#333333;&quot;&gt;2．贷款流程不同：&lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'仿宋'; font-size:14pt; color:#333333;&quot;&gt;申请商业贷款要在办理过户之前审核贷款，公积金贷款是在办理过户之后审核贷款。 &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'仿宋'; font-size:14pt; font-weight:600; color:#333333;&quot;&gt;3、用途不同：&lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'仿宋'; font-size:14pt; color:#333333;&quot;&gt;商业贷款可以用来买住宅、商住。 公积金贷款不能用于购买商住，只能用于买住宅、装修等。&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'仿宋'; font-size:14pt; font-weight:600; color:#333333;&quot;&gt;4、面向对象不同：&lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'仿宋'; font-size:14pt; color:#333333;&quot;&gt;商业贷款针对所有符合条件的社会公众开放，而公积金贷款则只对缴纳公积金的职工开放。&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>LPR</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QTextBrowser" name="textBrowser_2">
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial','tahoma','Microsoft Yahei','宋体','sans-serif'; font-size:22pt; color:#000000; background-color:#ffffff;&quot;&gt;贷款市场报价利率（LPR）&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Helvetica','Arial','sans-serif'; font-size:12pt; color:#555555;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'仿宋'; font-size:14pt; color:#333333;&quot;&gt;   从2020年3月1日起，金融机构与存量浮动利率贷款客户就定价基准转换条款进行协商，将原合同约定的利率定价方式转换为以LPR为定价基准加点形成（加点可为负值），加点数值在合同剩余期限内固定不变；也可转换为固定利率。&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:14pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'仿宋'; font-size:14pt; color:#333333;&quot;&gt;   也就是说从2020年3月1日起，全部的房贷除已发放的房贷外，都将实行LPR+基点的模式进行贷款，并且LPR利率由央行每月调整一次，所以必须每月关注LPR利率。&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Helvetica','Arial','sans-serif'; font-size:12pt; color:#555555;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>还款方式</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0">
+        <widget class="QTextBrowser" name="textBrowser_3">
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:22pt; font-weight:600;&quot;&gt;计算方式区别&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'仿宋'; font-size:12pt; font-weight:600; color:#333333;&quot;&gt;一、等额本息还款：&lt;/span&gt;&lt;span style=&quot; font-family:'仿宋'; font-size:12pt; color:#333333;&quot;&gt;把按揭贷款的本金总额与利息总额相加，然后平均分摊到还款期限的每个月中。作为还款人，每个月还给银行固定金额，但每月还款额中的本金比重逐月递增、利息比重逐月递减。&lt;/span&gt; &lt;span style=&quot; font-family:'仿宋'; font-size:12pt; color:#333333;&quot;&gt;即借款人每月按照固定金额还款。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'仿宋'; font-size:12pt; color:#333333;&quot;&gt;计算公式：&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'仿宋'; font-size:12pt; color:#333333;&quot;&gt;每月还款金额=【贷款本金×月利率×（1+月利率）^还款月数】÷【（1+月利率）^还款月数-1】。&lt;/span&gt; &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'仿宋'; font-size:12pt; font-weight:600; color:#333333;&quot;&gt;二、等额本金还款：&lt;/span&gt;&lt;span style=&quot; font-family:'仿宋'; font-size:12pt; color:#333333;&quot;&gt;将本金分摊到每个月内,同时付清上一交易日至本次还款日之间的利息。这种还款方式相对等额本息而言,总的利息支出较低,但是前期支付的本金和利息较多,还款负担逐月递减。&lt;/span&gt; &lt;span style=&quot; font-family:'仿宋'; font-size:12pt; color:#333333;&quot;&gt;指借款人每月偿还本金不变，利息随着贷款的偿还越来越少。&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'仿宋'; font-size:12pt; color:#333333;&quot;&gt;计算公式：&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'仿宋'; font-size:12pt; color:#333333;&quot;&gt;每月还款金额=【贷款本金/还款月数】+【本金-已归还本金累计额】×每月利率。&lt;/span&gt; &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
