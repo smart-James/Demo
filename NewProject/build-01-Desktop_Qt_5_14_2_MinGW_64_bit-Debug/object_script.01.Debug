@@ -1,0 +1,11 @@
+debug/calaterbutton.o
+debug/helpframe.o
+debug/main.o
+debug/pushbutton.o
+debug/titlebar.o
+debug/widget.o
+debug/moc_calaterbutton.o
+debug/moc_helpframe.o
+debug/moc_pushbutton.o
+debug/moc_titlebar.o
+debug/moc_widget.o
